@@ -1,15 +1,15 @@
-# User Explorer App
+# User Explorer App - Indian Edition
 
-A React application built with Vite that fetches and displays user data from the JSONPlaceholder API with search functionality.
+A React application built with Vite that displays Indian user data with search functionality. Features real Indian names, companies, and addresses from major Indian cities.
 
 ## Features
 
 - 📱 **Responsive Design**: Built with Tailwind CSS for a modern, mobile-friendly interface
 - 🔍 **Search Functionality**: Filter users by name in real-time
-- 📊 **User Data Display**: Shows comprehensive user information including:
-  - Personal details (name, email, phone, website)
-  - Company information (name, catchphrase, business)
-  - Address details
+- 📊 **Indian User Data**: Shows comprehensive information for Indian professionals including:
+  - Personal details (Indian names, email, phone with +91, .in websites)
+  - Company information (Major Indian IT companies like TCS, Infosys, Wipro)
+  - Address details (Major Indian cities with states)
 - ⚡ **Fast Loading**: Built with Vite for optimal performance
 - 🎨 **Modern UI**: Clean, card-based layout with hover effects
 
@@ -67,9 +67,14 @@ npm run dev
 - `npm run preview` - Preview production build
 - `npm run lint` - Run ESLint
 
-## API
+## Data Source
 
-This application fetches data from the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/users), which provides fake user data for testing and prototyping.
+This application uses a curated dataset of Indian professionals featuring:
+- **10 Indian users** with authentic names and details
+- **Major Indian IT companies**: TCS, Infosys, Wipro, HCL, Tech Mahindra, Cognizant, Accenture, Capgemini, IBM India, Microsoft India
+- **Indian cities**: Mumbai, Bangalore, Kolkata, Hyderabad, Delhi, Chennai, Pune, Kochi, Jaipur, Chandigarh
+- **Indian phone numbers**: +91 format
+- **Indian websites**: .in and .co.in domains
 
 ## Component Architecture
 

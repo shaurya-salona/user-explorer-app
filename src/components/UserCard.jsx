@@ -41,7 +41,8 @@ function UserCard({ user }) {
         <h4 className="font-medium text-gray-800 mb-2">Address</h4>
         <p className="text-gray-600 text-sm">
           {user.address.street}, {user.address.suite}<br />
-          {user.address.city}, {user.address.zipcode}
+          {user.address.city}, {user.address.zipcode}<br />
+          <span className="text-blue-600 font-medium">{user.address.state}</span>
         </p>
       </div>
     </div>
